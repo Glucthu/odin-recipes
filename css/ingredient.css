@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Verdana';
+    padding: 3vw;
+}
+
+h1 {
+    font-family: 'Corinthia';
+    font-size: 64px;
+    margin: 2vh 0 0 2vw;
+}
+
+h2 {
+    margin: 50px 0 10px 0;
+}
+
+figure {
+    float: right;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul li {
+    list-style-type: transparent-squares;
+}
+
+@counter-style transparent-squares {
+    system: cyclic;
+    symbols: "\25A2";
+    suffix: " ";
+}
+
+a {
+    display: block;
+}
