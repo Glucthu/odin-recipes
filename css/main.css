@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Luxurious script';
+    font-size: 64px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: auto 5vw;
+}
+
+li {
+    text-align: center;
+    background-color: #4C7CF6;
+    margin: 20px;
+    border: 3px #6d97ff solid;
+    border-radius: 7px;
+}
+
+a {
+    display: block;
+    font-family: 'Corinthia';
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eee;
+}
